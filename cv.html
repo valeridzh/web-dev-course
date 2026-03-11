@@ -20,6 +20,16 @@
   height: 25vh;
   margin: 8vh auto ;
 }
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*width: 30%;   /* adjust percentage */
+  height: auto;
+}
+.container {
+  position: relative;
+}
     h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -31,20 +41,19 @@
     .profile-pic {
         width: 15vw;
         height: auto;
-        
-        
-        
     }
 </style>
 
 <body>
-    <div class="box" > 
+    <div class="container">
+      <img class="profile-pic" src="images/pic_for_cv_project.png" alt="Picture of me">
+      <div class="box" > 
         <h1 style="text-align: right; color: rgb(255, 255, 255); font-size: 60px; ">Valeri</h1>
         <h1 style="text-align: right; color: rgb(255, 255, 255); font-size: 65px; ">Dzheleov</h1>
        <h2 style="text-align: right; color: rgb(255, 255, 255); font-size: 20px; ">Assistant Manager at </h2>
        <h2 style="text-align: right; color: rgb(255, 255, 255); font-size: 20px; ">“Die Eiseiligen GmbH” Germany</h2>
-    </div>
-    <img class="profile-pic" src="images/pic_for_cv_project.png" alt="Picture of me">
+      </div>
+    </div>>
 
     
 </body>
